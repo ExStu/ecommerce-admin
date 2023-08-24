@@ -2,7 +2,7 @@
 
 import * as z from 'zod'
 import axios from 'axios'
-import { Color } from '@prisma/Client'
+import { Color } from '@prisma/client'
 import { Trash } from 'lucide-react'
 import { useForm } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'

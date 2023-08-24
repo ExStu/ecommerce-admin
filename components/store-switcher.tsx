@@ -1,7 +1,7 @@
 "use client"
 
 import { Check, ChevronsUpDown, PlusCircle, Store as StoreIcon } from 'lucide-react'
-import { Store } from '@prisma/Client'
+import { Store } from '@prisma/client'
 import { useParams, useRouter } from 'next/navigation'
 
 import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover'
